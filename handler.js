@@ -433,7 +433,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh on/off",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -503,7 +503,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh on/off",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -540,7 +540,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh on/off",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -578,7 +578,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh on/off",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -616,7 +616,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh on/off",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -656,7 +656,7 @@ module.exports = handle = (client, Client) => {
             } else {
 				let po = client.prepareMessageFromContent(data.from, {
 					"listMessage":{
-                  "title": "*WHATSAPP-BOT*",
+                  "title": "*NUISANCE-BOT*",
                   "description": "pilh open/close",
                   "buttonText": "COMMANDS",
                   "listType": "SINGLE_SELECT",
@@ -916,7 +916,7 @@ module.exports = handle = (client, Client) => {
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
                      const buttonMessage = {
                            contentText: menu(data.prefix, data.pushname),
-                           footerText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓',
+                           footerText: 'NUISANCE-𝐁𝐎𝐓',
                                 "contextInfo": {
 									  mentionedJid: [configs.ownerList[0]],
                                       participant: sender,
